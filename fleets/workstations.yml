@@ -72,7 +72,7 @@ controls:
         labels_include_all:
           - Department - Engineering
       - path: ../platforms/macos/configuration_profiles/passcode-settings.json
-        lables_exclude_any:
+        labels_exclude_any:
           - C-Suite
   windows_settings:
     configuration_profiles:
