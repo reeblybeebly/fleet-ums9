@@ -71,12 +71,13 @@ controls:
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - Department - Engineering
+      - path: ../platforms/macos/configuration_profiles/passcode-settings.json
+        lables_exclude_any:
+          - C-Suite
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
-      - path: ../platforms/windows/configuration_profiles/passcode-settings.json
-        lables_exclude_any:
-          - C-Suite
+      - paths: ../platforms/windows/scripts/*.ps1
 
   ###########################################################
   # Managed disk encryption
