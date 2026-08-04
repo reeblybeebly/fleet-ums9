@@ -12,9 +12,11 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 org_settings:
+  
   webhook_settings:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/452c135c-a238-4331-82ef-31f68180d938
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/452c135c-a238-4331-82ef-31f68180d938
 
   fleet_desktop:
     transparency_url: https://catoftheday.com
