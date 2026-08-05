@@ -74,7 +74,6 @@ controls:
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
-      - paths: ../platforms/windows/scripts/*.ps1
 
   ###########################################################
   # Managed disk encryption
